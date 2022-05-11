@@ -62,7 +62,11 @@ async function run () {
         // await client.close()
     }
 }
-run().catch(console.dir)
+run().catch(console.dir);
+
+app.get('/', (req,res) => {
+    res.send('Running The Genious Server');
+})
 
 
 app.listen(port, () => {
