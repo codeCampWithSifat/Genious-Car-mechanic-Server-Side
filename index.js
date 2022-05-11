@@ -7,9 +7,6 @@ require('dotenv').config()
 const port = process.env.PORT || 5000;
 
 
-// name = geniousCarMechanic
-// password = BzZK59noLM9ftPVk
-
 // middleware
 app.use(express.json());
 app.use(cors())
